@@ -19,13 +19,13 @@ body {
     min-height: 100vh;
     font-family: 'Open Sans', sans-serif;
     color: hsl(0, 100%, 100%);
-    background: no-repeat center/85% url(./images/bg-desktop.svg);
+    background: no-repeat left/85% url(./images/bg-desktop.svg);
     background-color: hsl(257, 40%, 49%);
 }
 
 /* navigation */
 .main-nav {
-    padding: 32px 0 32px 42px;
+    padding: 52px 0 38px 82px;
 }
 
 /* container for content */
@@ -34,7 +34,7 @@ body {
     align-items: center;
     min-height: 800px;
     /* outline: 1px solid #fff; */
-    padding: 0 52px 0 52px ;
+    padding: 0 52px 0 82px ;
     gap: 52px;
     
 }
@@ -50,7 +50,7 @@ body {
 
 .column-2 {
     /* outline: 1px solid #fff; */
-    width: 50%;
+    width: 36%;
     height: 540px;
 }
 
@@ -62,5 +62,31 @@ body {
 }
 
 .body-text {
-    font-size: 25px;
+    font-size: 23px;
+}
+
+/* button for registration */
+
+#btn-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: hsl(257, 40%, 49%);
+    font-family: 'Poppins', san-serif;
+    background-color: #fff;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    border: solid 1px #fff;
+    border-radius: 30px;
+    width: 250px;
+    height: 65px;
+    margin-top: 32px;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    
 }
